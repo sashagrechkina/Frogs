@@ -1,0 +1,18 @@
+@import 'reset.css'; /* сбрoc настроек браузера */
+@import 'layout.css'; /* макет  */
+@import 'content.css'; /* контент / содержимое  */
+@import 'responsive.css'; /* адаптивность */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+a {
+  font-family: 'Inter', sans-serif;
+  width: 6.979vw;
+  height: 2.656vw;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.083vw;
+  line-height: 2.708vw;
+}
+h1 {
+  font-family: 'Stick', sans-serif;
+}

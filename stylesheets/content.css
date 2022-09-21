@@ -1,0 +1,111 @@
+body {
+  background: #e2ffe1;
+  overflow-x: hidden;
+}
+* {
+  outline: 0 !important;
+}
+header {
+  position: fixed;
+  width: 100%;
+  height: 6.51vw;
+  left: 0px;
+  top: 0px;
+
+  background: #ffdcf5;
+  border-radius: 0px 0px 4.115vw 4.115vw;
+}
+input {
+  background: rgba(204, 242, 243, 0.8);
+  border-radius: 35px;
+  padding: 1vw;
+  outline: 0;
+  border: none;
+}
+button {
+  background: #ffdcf5;
+  border-radius: 35px;
+  outline: 0;
+  color: #b69cff;
+  border: none;
+}
+input,
+textarea {
+  outline: none;
+}
+input:active,
+textarea:active {
+  outline: none;
+}
+:focus {
+  outline: none;
+}
+textarea {
+  resize: none;
+}
+textarea {
+  resize: vertical;
+}
+textarea {
+  resize: horizontal;
+}
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6vw;
+}
+.menu-items a:hover {
+  opacity: 0.3;
+}
+.menu-items a {
+  line-height: 6vw;
+  padding-left: 6.094vw;
+  color: white;
+  opacity: 0.9;
+  text-decoration: none;
+}
+.menu {
+  width: 100vw;
+  height: 111.146vw;
+  left: 0px;
+  top: 0px;
+}
+.aboutus {
+  width: 100vw;
+  height: 209.896vw;
+  left: 0px;
+  top: 0px;
+}
+.registration {
+  width: 100vw;
+  height: 56.25vw;
+}
+.name {
+  position: absolute;
+  width: 24.063vw;
+  height: 3.49vw;
+  left: 6.094vw;
+  top: 27vw;
+}
+.phone {
+  position: absolute;
+  width: 24.063vw;
+  height: 3.49vw;
+  left: 6.094vw;
+  top: 31vw;
+}
+.b1 {
+  position: absolute;
+  width: 10.052vw;
+  height: 3.49vw;
+  left: 19.583vw;
+  top: 35.594vw;
+}
+.event {
+  width: 100vw;
+  height: 170.99vw;
+  left: 0px;
+  top: 0px;
+}
